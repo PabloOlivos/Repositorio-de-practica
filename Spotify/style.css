@@ -1,0 +1,188 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    font-family: 'Geologica', sans-serif;
+}
+
+body{
+    background: #F5F5F5;
+    margin: 0;
+    font-family: 'Geologica', sans-serif;
+    
+}
+
+nav{
+    padding: 0 24px;
+    box-shadow: 0 0 4px black;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar-left{
+    display: flex;
+}
+
+.navbar-left .logo{
+    width: 55px;
+    margin: 20px;
+    
+}
+
+.navbar-left ul,
+.navbar-right ul{
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0;
+    align-items: center;
+    
+}
+
+.navbar-left li,
+.navbar-right li    {
+    padding: 10px;
+    list-style: none;
+    
+}
+
+.navbar-left a,
+.navbar-right a {
+    text-decoration: none;
+   color: #A0A0A0;
+   text-align: center;
+}
+
+.navbar-left a:hover,
+.navbar-right a:hover{
+   color: #2C2C2C;
+}
+
+.navbar-center {
+    display: flex;
+}
+
+
+
+.navbar-center input.search{
+    display: flex;
+    width: 370px;
+    height: 4.6rem;
+    font-size: 1.4rem;
+    appearance: none;
+    background-clip: padding-box;
+    line-height: 1.5;
+    transition: border 100ms ease-in,background-color 100ms ease-in;
+    border-style: solid;
+    
+    box-shadow: inset 0 0 0 1px hsla(240,8%,88%,.4);
+    border-radius: 0.6rem 0px 0px 0.6rem ;
+    padding: 0.5rem 1rem ;
+    
+    
+}
+
+.navbar-center .search:focus:hover{
+    box-shadow: 0 0 0 2px #00D95F, inset 0 0 0  2px #00D95F;
+    outline-offset: -1px;
+    border-color: #00D95F;
+    
+}
+
+.button-search {
+    display: flex;
+  }
+  
+  .button-search button {
+    padding: 6px 10px;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+.navbar-right{
+    display: flex;
+  
+}
+
+.navbar-right .icons-menu{
+    display: flex;
+    
+}
+
+.user-img{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.profile-image {
+    width: 45px;
+    height: 45px;
+    
+  }
+
+.main-content{
+    display: inline-block;
+}
+
+.main-content img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.aside-left{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 100vh;
+    box-shadow: 0 0 4px black;
+    display: inline-block;
+}
+
+main img{
+    display: inline;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card img{
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px black;
+}
+  
+footer{
+    background: #00D95F;
+    width: 100%;
+    height: 60px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media i{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #2C2C2C;
+}
+
+.social-media i:hover{
+   color: #A0A0A0;
+}
